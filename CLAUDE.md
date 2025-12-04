@@ -1,0 +1,5 @@
+- this application main language is arabic so we are using RTL
+- all types need to be inside @types folder under the app folder , do not add local types only interface will be at the page file
+- that an aribic project but will be multi lanuagge at the fututre so we need to have all style with start and end no left and right
+- do not create folder starts with @ like @types again
+- all action need to be inisde one files , we are going to use useActionState inside our Project as Next.js Project

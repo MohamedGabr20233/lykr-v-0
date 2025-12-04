@@ -1,0 +1,45 @@
+{
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "invalid": "قيمة غير صالحة",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "emailInvalid": "البريد الإلكتروني غير صالح",
+    "emailExists": "البريد الإلكتروني مسجل مسبقاً",
+    "emailNotFound": "البريد الإلكتروني غير مسجل",
+    "emailMaxLength": "البريد الإلكتروني يجب أن لا يتجاوز 150 حرف",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "passwordMinLength": "كلمة المرور يجب أن تكون 8 أحرف على الأقل",
+    "passwordMaxLength": "كلمة المرور يجب أن لا تتجاوز 255 حرف",
+    "passwordMismatch": "كلمات المرور غير متطابقة",
+    "passwordWeak": "كلمة المرور يجب أن تحتوي على حرف كبير وحرف صغير ورقم على الأقل",
+    "passwordIncorrect": "كلمة المرور غير صحيحة",
+    "nameRequired": "الاسم مطلوب",
+    "nameMinLength": "الاسم يجب أن يكون حرفين على الأقل",
+    "nameMaxLength": "الاسم يجب أن لا يتجاوز 120 حرف",
+    "otpRequired": "رمز التحقق مطلوب",
+    "otpInvalid": "رمز التحقق غير صالح",
+    "otpExpired": "رمز التحقق منتهي الصلاحية",
+    "otpLength": "رمز التحقق يجب أن يكون 6 أرقام",
+    "tokenRequired": "رمز إعادة التعيين مطلوب",
+    "tokenInvalid": "رمز إعادة التعيين غير صالح أو منتهي الصلاحية",
+    "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة"
+  },
+  "auth": {
+    "loginFailed": "فشل تسجيل الدخول",
+    "loginSuccess": "تم تسجيل الدخول بنجاح",
+    "registerFailed": "فشل إنشاء الحساب",
+    "registerSuccess": "تم إنشاء الحساب بنجاح",
+    "logoutSuccess": "تم تسجيل الخروج بنجاح",
+    "unauthorized": "غير مصرح",
+    "sessionExpired": "انتهت صلاحية الجلسة",
+    "otpSent": "تم إرسال رمز التحقق",
+    "otpVerified": "تم التحقق بنجاح",
+    "passwordResetSent": "تم إرسال رابط إعادة تعيين كلمة المرور",
+    "passwordResetSuccess": "تم إعادة تعيين كلمة المرور بنجاح"
+  },
+  "errors": {
+    "serverError": "حدث خطأ في الخادم",
+    "networkError": "خطأ في الاتصال بالشبكة",
+    "unknownError": "حدث خطأ غير متوقع"
+  }
+}

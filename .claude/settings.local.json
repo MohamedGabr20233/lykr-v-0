@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__my-local-server__get_design_context",
+      "mcp__my-local-server__get_screenshot",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

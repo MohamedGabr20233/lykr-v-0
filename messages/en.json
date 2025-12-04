@@ -1,0 +1,45 @@
+{
+  "validation": {
+    "required": "This field is required",
+    "invalid": "Invalid value",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "emailExists": "Email already registered",
+    "emailNotFound": "Email not found",
+    "emailMaxLength": "Email must not exceed 150 characters",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 8 characters",
+    "passwordMaxLength": "Password must not exceed 255 characters",
+    "passwordMismatch": "Passwords do not match",
+    "passwordWeak": "Password must contain at least one uppercase, one lowercase, and one number",
+    "passwordIncorrect": "Incorrect password",
+    "nameRequired": "Name is required",
+    "nameMinLength": "Name must be at least 2 characters",
+    "nameMaxLength": "Name must not exceed 120 characters",
+    "otpRequired": "Verification code is required",
+    "otpInvalid": "Invalid verification code",
+    "otpExpired": "Verification code has expired",
+    "otpLength": "Verification code must be 6 digits",
+    "tokenRequired": "Reset token is required",
+    "tokenInvalid": "Invalid or expired reset token",
+    "invalidCredentials": "Invalid email or password"
+  },
+  "auth": {
+    "loginFailed": "Login failed",
+    "loginSuccess": "Login successful",
+    "registerFailed": "Registration failed",
+    "registerSuccess": "Account created successfully",
+    "logoutSuccess": "Logged out successfully",
+    "unauthorized": "Unauthorized",
+    "sessionExpired": "Session expired",
+    "otpSent": "Verification code sent",
+    "otpVerified": "Verification successful",
+    "passwordResetSent": "Password reset link sent",
+    "passwordResetSuccess": "Password reset successful"
+  },
+  "errors": {
+    "serverError": "Server error occurred",
+    "networkError": "Network connection error",
+    "unknownError": "An unexpected error occurred"
+  }
+}
