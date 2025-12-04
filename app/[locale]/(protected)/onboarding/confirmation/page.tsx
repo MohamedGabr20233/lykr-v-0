@@ -145,6 +145,7 @@ export default function ConfirmationPage() {
 
       await conversation.startSession({
         agentId: process.env.NEXT_PUBLIC_ELEVENLABS_AGENT_ID!,
+        connectionType: "websocket",
         dynamicVariables: dynamicVariables,
       });
     } catch (err: unknown) {
